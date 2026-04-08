@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.papai {
+    width: 920px;
+    height: 800px;
+    margin: 0 auto;
+     padding: 20px; 
+     border: 2px dashed salmon;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+   
+}   
+
+.papai__filhinhos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    border: 2px dashed #000000;
+}
+.filhinho--azul {
+    background-color: blue;
+    color: white;
+}   
