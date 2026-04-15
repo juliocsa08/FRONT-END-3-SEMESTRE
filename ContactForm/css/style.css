@@ -163,11 +163,78 @@ body{
 
 /*Breakpoints - tablet*/
 @media screen and (max-width: 991px) {
-    
+    .body{
+           
+      }
+    /* .container {
+
+        max-width: 750px;
+    } */
+
+    .header__logo {
+        width: 140px;
+    }
+
+    .header__text {
+        font-size: 18px;
+    }
+
+    .header__title {
+        font-size: 20px;
+    }
+
+    .contact-form__label {
+        font-size: 14px;
+    }
+
+    .contact-form__input,
+    .contact-form__textarea {
+        font-size: 14px;
+    }
 }
+
 
 
 /*Breakpoints - Mobile*/
 @media screen and (max-width: 767px) {
+    body{
+        height: auto;
+    }
+    .header__logo{
+        font-size: 15px;
+        text-align: center;
+    }
+      .contact-form__linha {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .contact-form__col-a,
+    .contact-form__col-b {
+        width: 100%;
+    }
+
+    .contact-form__input--metade,
+    .contact-form__input--quarto,
+    .contact-form__input--terco {
+        width: 100%;
+    }
+
+    .contact-form__col-b {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .contact-form__col-a {
+        display: none;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .header__text {
+        font-size: 14px   ;
+        margin: auto;
+    }
     
 }
