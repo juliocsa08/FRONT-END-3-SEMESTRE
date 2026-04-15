@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*desktop first >= 992px*/
+h1
+{
+   background-color: #ffffff;   
+   
+}
+
+
+/*brakepoint 992px*/
+
+/*tablet first <= 911px*/
+@media screen and (max-width: 911px) {
+    h1{
+     
+        color: brown;
+    }
+    img{
+    display: none;
+}
+}
+ 
+
+/*mobile first <= 767px*/
+@media screen and (max-width: 767px) {
+    h1{
+        
+        background-color: rgb(255, 0, 170);
+        color: rgb(124, 0, 226);
+    }
+    img{
+    display: block;
+}
+}
