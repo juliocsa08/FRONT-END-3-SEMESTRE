@@ -1,0 +1,102 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "Julio",
+      "sobrenome": "soares",
+      "email": "julio.soares@example.com"
+    },
+    {
+      "id": "fdVIcwpzQBg"
+    },
+    {
+      "nome": "ademir",
+      "sobrenome": "souza",
+      "email": "ademir.souza@example.com",
+      "id": "khU0IPZOiDc"
+    },
+    {
+      "nome": "clovis",
+      "sobrenome": "basilio",
+      "email": "clovis.basilio@example.com",
+      "id": "mNvj_uKZEAQ"
+    },
+    {
+      "nome": "maria",
+      "sobrenome": "cordeiro",
+      "email": "maria.cordeiro@example.com",
+      "id": "ZEcSAzZ1Hx4"
+    },
+    {
+      "nome": "diogo",
+      "sobrenome": "aldrovandi",
+      "email": "diogo.aldrovandi@example.com",
+      "id": "4eguAgUgzkM"
+    },
+    {
+      "nome": "marcos",
+      "sobrenome": "santos",
+      "email": "marcos.santos@example.com",
+      "id": "hTokGPy_ECk"
+    },
+    {
+      "nome": "julio",
+      "sobrenome": "soares",
+      "id": "HSj-YxpolbU"
+    }
+  ],
+  "Produtos": [
+    {
+      "id": "1",
+      "nome": "Produto 1",
+      "preco": 10.99,
+      "quantidade": 5
+    },
+    {
+      "nome": "Iphone 17",
+      "preco": "10000",
+      "quantidade": "1",
+      "id": "rGdJxnmrpeg"
+    },
+    {
+      "nome": "Iphone 12",
+      "preco": "3500",
+      "quantidade": "4",
+      "id": "7eOuMtDPyk8"
+    },
+    {
+      "nome": "Iphone 14",
+      "preco": "5500",
+      "quantidade": "4",
+      "id": "QnLK-pMJMpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
