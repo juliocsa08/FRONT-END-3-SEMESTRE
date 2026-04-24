@@ -45,7 +45,7 @@ function calcular() {
         document.getElementById("nome").value = "";
         document.getElementById("altura").value = "";
         document.getElementById("peso").value = "";
-        tabela.innerHTML += linha;
+        tabela.innerHTML += linha;  
 
     } else {
         alert("Ocorreu um erro ao cadastrar os dados na API. Por favor, tente novamente.");
