@@ -1,0 +1,15 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "João Silva",
+      "email": "joao.silva@example.com"
+    }
+  ],
+
+  "imc" : [
+   
+  ],
+
+  "$schema": "./node_modules/json-server/schema.json"
+}
