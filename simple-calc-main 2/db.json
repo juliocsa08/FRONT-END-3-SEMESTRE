@@ -1,7 +1,40 @@
 {
-   "calculo" : [
-
-   ],
+  "calculo": [
+    {
+      "n1": 10,
+      "n2": 23,
+      "op": "soma",
+      "resultado": "33.00",
+      "id": "ZY1jS3aClg8"
+    },
+    {
+      "n1": 1010,
+      "n2": 1010,
+      "op": "soma",
+      "resultado": "2020.00",
+      "id": "JOZsn9IuUqE"
+    },
+    {
+      "n1": 2131,
+      "n2": 1132,
+      "op": "soma",
+      "resultado": "3263.00",
+      "id": "Ryyf5sG_Tvk"
+    },
+    {
+      "n1": 20,
+      "n2": 20,
+      "op": "soma",
+      "resultado": "40.00",
+      "id": "Dc-CT3348mo"
+    },
+    {
+      "n1": null,
+      "n2": null,
+      "op": "",
+      "resultado": "Operação Inválida",
+      "id": "nbyF0wnObHQ"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
-  
 }

@@ -7,9 +7,48 @@
     }
   ],
 
-  "imc" : [
-   
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "ca03LyqZETE"
+    },
+    {
+      "nome": "julio",
+      "peso": 85,
+      "altura": 1.78,
+      "IMC": 26.82742078020452,
+      "textoSituacao": "Sobrepeso",
+      "id": "MDVl2uInbCo"
+    },
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "3NPaD6lJjSs"
+    },
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "q5MSzBVtbls"
+    }
   ],
-
+  "Calculadora": [
+    {
+      "id": "1",
+      "nome": "Calculadora IMC",
+      "descricao": "Calculadora para calcular o Índice de Massa Corporal (IMC) com base no peso e altura do usuário."
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
+
+  
 }
