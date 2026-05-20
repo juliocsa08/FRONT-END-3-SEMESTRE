@@ -1,0 +1,13 @@
+{
+  "produtos": [
+    {
+      "nome": "NoteBook",
+      "preco": 2000,
+      "descricao": "Muito bom rs",
+      "quantidade": 30,
+      "imagem": "laptop-png.jpg",
+      "id": "eeJv8weZ8_U"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

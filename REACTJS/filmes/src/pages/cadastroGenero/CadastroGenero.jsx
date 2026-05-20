@@ -1,0 +1,15 @@
+import "./cadastroGenero.css"
+import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
+const CadastroGenero = () => {
+  return(
+    <>
+    <Header/>
+    <h1>Cadastro de Genero</h1>
+    <Footer/>
+    </>
+  )
+
+}
+
+export default CadastroGenero
